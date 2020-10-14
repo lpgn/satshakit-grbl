@@ -1,0 +1,48 @@
+(.../pcb-gcode-3.6.0.4/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../no_serial_screw_connectors/satshakit-grbl.brd)
+(Current profile is .../pcb-gcode-3.6.0.4/profiles/mach.pp  )
+(This file generated 10/14/2020 5:00 PM)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.0140  )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.7000 	2.5400  	-0.0350 	-1.8000 )
+(spindle on time = 1.0000)
+(milling depth = -0.0140)
+(text depth = -0.0350)
+(tool change at 12.7000 15.2400 25.4000 )
+(feed rate xy = F508   )
+(feed rate z  = F254   )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0150)
+(isolate max = 0.5080)
+(isolate step = 0.1000)
+(Generated top outlines, top drill, )
+(Unit of measure: mm)
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+G00 X0.0000  Y0.0000  
+M03
+G04 P1.000000
+G00 Z2.5400  
+G00 X1.0400  Y60.4700 
+G01 Z-0.0140 F254   
+G01 X1.0400  Y-1.2000 F508   
+G01 X-98.9000 Y-1.2000 
+G01 X-98.9000 Y59.6000 
+G01 X-43.6000 Y59.6000 
+G01 X-43.6000 Y70.3000 
+G01 X-39.2000 Y74.2000 
+G01 X-19.5000 Y74.2000 
+G01 X-18.8000 Y73.6000 
+G01 X-18.8000 Y60.4700 
+G01 X1.0400  Y60.4700 
+G00 Z12.7000 
+M05
+M02
